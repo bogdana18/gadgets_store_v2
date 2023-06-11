@@ -1,6 +1,5 @@
 {
   "name": "gadgets-store",
-  "homepage": "https://bogdana18.github.io/gadgets_store_v2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
