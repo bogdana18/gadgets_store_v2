@@ -47,7 +47,7 @@ export const getImgUrl = ({
   category,
   color,
   number,
-}: ImgUrlParams) => `${LOCAL_IMG_URL}/img/${category}/${namespaceId}/${color}/0${number}.png`;
+}: ImgUrlParams) => `img/${category}/${namespaceId}/${color}/0${number}.png`;
 
 export const getImages = (
   {
