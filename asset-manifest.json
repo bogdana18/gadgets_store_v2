@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gadgets_store_v2/static/css/main.2d9a1a2b.css",
+    "main.js": "/gadgets_store_v2/static/js/main.280fdbc3.js",
+    "index.html": "/gadgets_store_v2/index.html",
+    "main.2d9a1a2b.css.map": "/gadgets_store_v2/static/css/main.2d9a1a2b.css.map",
+    "main.280fdbc3.js.map": "/gadgets_store_v2/static/js/main.280fdbc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d9a1a2b.css",
+    "static/js/main.280fdbc3.js"
+  ]
+}
