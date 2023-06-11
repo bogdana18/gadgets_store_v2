@@ -11,7 +11,6 @@ import { goToTop } from '../../utils/goToTop';
 import { getImgUrl } from '../../api/apiProducts';
 import { TechSpecs } from '../TechSpecs';
 import { Styles } from '../../types/Styles';
-import { useNotification } from '../../hooks/useNotification';
 
 const styles: Styles = require('./ProductCard.module.scss');
 

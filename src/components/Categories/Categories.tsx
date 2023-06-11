@@ -59,7 +59,7 @@ export const Categories: FC<Props> = ({ className = '' }) => {
             >
               <img
                 className={image}
-                src={`${LOCAL_IMG_URL}/images/Category_${key}.png`}
+                src={`images/Category_${key}.png`}
                 alt={key}
               />
             </Link>

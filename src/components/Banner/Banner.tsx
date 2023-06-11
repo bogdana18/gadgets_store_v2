@@ -35,9 +35,9 @@ export const Banner: FC<Props> = ({ className = '' }) => {
   const [index, setIndex] = useState(0);
 
   const images = [
-    `${LOCAL_IMG_URL}/images/Banner-00.png`,
-    `${LOCAL_IMG_URL}/images/Banner-01.png`,
-    `${LOCAL_IMG_URL}/images/Banner-02.png`,
+    `images/Banner-00.png`,
+    `images/Banner-01.png`,
+    `images/Banner-02.png`,
   ]
 
   const handleSlideChange = (i: number) => {

@@ -36,7 +36,7 @@ export const Logo: FC<Props> = ({
         onClick={onclick}
       >
         <img
-          src={`${LOCAL_IMG_URL}/icons/logo.svg`}
+          src={`icons/logo.svg`}
           alt="Logo"
           className={image}
           style={logoImageStyles}

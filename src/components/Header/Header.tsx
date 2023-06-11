@@ -90,7 +90,7 @@ export const Header: FC<Props> = ({ className = '' }) => {
           )}
         >
           <img
-            src={`${LOCAL_IMG_URL}/icons/Theme_${theme}.svg`}
+            src={`icons/Theme_${theme}.svg`}
             alt="theme"
           />
         </button>
@@ -105,7 +105,7 @@ export const Header: FC<Props> = ({ className = '' }) => {
           )}
         >
           <img
-            src={`${LOCAL_IMG_URL}/icons/Menu_${theme}.svg`}
+            src={`icons/Menu_${theme}.svg`}
             alt="menu"
           />
         </button>

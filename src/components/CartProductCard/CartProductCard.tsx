@@ -68,7 +68,7 @@ export const CartProductCard: FC<Props> = ({ className = '', product }) => {
             onClick={() => removeFromCart(productId)}
           >
             <img
-              src={`${LOCAL_IMG_URL}/icons/Close_${theme}_disabled.svg`}
+              src={`icons/Close_${theme}_disabled.svg`}
               alt="delete"
             />
           </button>

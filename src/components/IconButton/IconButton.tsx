@@ -68,19 +68,19 @@ export const IconButton: FC<Props> = ({
     if (arrow) {
       const { direction, disabled } = arrow;
 
-      icon = `${LOCAL_IMG_URL}/icons/Arrow_${direction}_${theme}${disabled ? '_disabled' : ''}.svg`;
+      icon = `icons/Arrow_${direction}_${theme}${disabled ? '_disabled' : ''}.svg`;
     }
 
     if (favorite) {
       const { filled } = favorite;
 
-      icon = filled ? `${LOCAL_IMG_URL}/icons/Heart_filled.svg` : `${LOCAL_IMG_URL}/icons/Heart_${theme}.svg`;
+      icon = filled ? `icons/Heart_filled.svg` : `icons/Heart_${theme}.svg`;
     }
 
     if (counter) {
       const { action, disabled } = counter;
 
-      icon = `${LOCAL_IMG_URL}/icons/${action}_${theme}${disabled ? '_disabled' : ''}.svg`;
+      icon = `icons/${action}_${theme}${disabled ? '_disabled' : ''}.svg`;
     }
 
     return icon;

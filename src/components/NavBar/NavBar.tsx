@@ -7,7 +7,6 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { Styles } from '../../types/Styles';
 import { Logo } from '../Logo';
 import { NavBarLink } from '../../types/NavBarLink';
-import { LOCAL_IMG_URL } from '../../api/apiProducts';
 
 const styles: Styles = require('./NavBar.module.scss');
 
@@ -79,7 +78,7 @@ export const NavBar: FC<Props> = ({
           )}
         >
           <img
-            src={`${LOCAL_IMG_URL}/icons/Close_${theme}.svg`}
+            src={`icons/Close_${theme}.svg`}
             alt="close"
           />
         </button>
@@ -126,7 +125,7 @@ export const NavBar: FC<Props> = ({
           }
         >
           <img
-            src={`${LOCAL_IMG_URL}/icons/Heart_${theme}.svg`}
+            src={`icons/Heart_${theme}.svg`}
             alt="favorites"
           />
 
@@ -155,7 +154,7 @@ export const NavBar: FC<Props> = ({
           )}
         >
           <img
-            src={`${LOCAL_IMG_URL}/icons/Cart_${theme}.svg`}
+            src={`icons/Cart_${theme}.svg`}
             alt="cart"
           />
 
