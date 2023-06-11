@@ -1,0 +1,23 @@
+@import "utils";
+
+.Contacts {
+  @extend %container;
+  width: 100%;
+
+  &__NavMap {
+    margin-bottom: 24px;
+
+    @include onTablet {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 32px;
+
+    @include onDesktop {
+      margin-bottom: 40px;
+    }
+  }
+}
+
