@@ -28,7 +28,7 @@ type Props = {
 
 enum FooterLinks {
   Github = 'https://github.com/bogdana18',
-  Контакти = '/contacts',
+  Контакти = '#/contacts',
   Права = 'https://minjust.gov.ua/m/str_4487',
 }
 
@@ -57,7 +57,7 @@ export const Footer: FC<Props> = ({ className = '' }) => {
                   infoLink,
                   { [infoLinkDark]: isThemeDark },
                 )}
-                href={!i ? value : `#${value}`}
+                href={!i ? value : `${value}`}
                 rel="noreferrer"
                 target="_blank"
               >
