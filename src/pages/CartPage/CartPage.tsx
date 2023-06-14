@@ -79,7 +79,7 @@ export const CartPage: FC = () => {
               >
                 <a
                 rel="nofollow"
-                href="https://secure.wayforpay.com/qr/qb11a8ee22ed5"
+                href="https://secure.wayforpay.com/button/bb57d41aacb78"
                 type="button"
                 className="cart__button button  pay__link"
                 >
