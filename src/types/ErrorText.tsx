@@ -3,7 +3,7 @@ export enum ErrorText {
   SearchError = 'По вашому запиту нічого не знайдено',
   PageLoad = 'Не можливо завантажити сторінку',
   EmptyPage = 'На жаль, товари відсутні',
-  EmptyCart = 'Ваша корзина порожня',
+  EmptyCart = 'Ваш кошик порожній',
   EmptyFavorites = 'Ваш лист улюбленого порожній',
   ProductNotFound = 'Товар не знайдено',
 }
